@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urdf_part>
+    <material name="#FF6C6D">
+        <color rgba="1.000000 0.424000 0.431000 1.0" />
+    </material>
+    <link name="base_link">
+        <visual>
+            <origin xyz="0.000049 -0.008541 0.045289" rpy="0 0 0"/>
+            <material name="#FF6C6D" />
+        </visual>
+        <inertial>
+            <origin xyz="0.000049 -0.008541 0.045289"/>
+            <mass value="2.44"/>
+            <volume value="0.000818918085"/>
+            <inertia ixx="0.00988466" ixy="0.00003854" ixz="-0.00032689" iyy="0.00566189" iyz="0.00029420" izz="0.01006404" />
+        </inertial>
+        <center_of_mass>0.000049 -0.008541 0.045289</center_of_mass>
+    </link>
+    <point name="point1" type="fixed">
+        <point_xyz>0.143571 -0.236280 -0.031600</point_xyz>
+    </point>
+    <point name="point2" type="fixed">
+        <point_xyz>0.143571 0.213280 -0.031600</point_xyz>
+    </point>
+    <point name="point3" type="fixed">
+        <point_xyz>-0.157000 -0.236280 -0.031600</point_xyz>
+    </point>
+    <point name="point4" type="fixed">
+        <point_xyz>-0.157000 0.212838 -0.031600</point_xyz>
+    </point>
+    <point name="point5" type="fixed">
+        <point_xyz>-0.007000 -0.125000 0.027000</point_xyz>
+    </point>
+    <joint>
+        <axis xyz="0 0 0" />
+    </joint>
+</urdf_part>

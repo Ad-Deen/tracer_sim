@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urdf_part>
+    <material name="#FFEE79">
+        <color rgba="1.000000 0.937000 0.475000 1.0" />
+    </material>
+    <link name="bl_prop">
+        <visual>
+            <origin xyz="0.143179 0.213605 -0.028615" rpy="0 0 0"/>
+            <material name="#FFEE79" />
+        </visual>
+        <inertial>
+            <origin xyz="0.143179 0.213605 -0.028615"/>
+            <mass value="0.000014288509"/>
+            <volume value="0.000014288509"/>
+            <inertia ixx="0.00004336" ixy="0.00000000" ixz="0.00000000" iyy="0.00004336" iyz="0.00000000" izz="0.00008650"/>
+        </inertial>
+        <center_of_mass>0.143179 0.213605 -0.028615</center_of_mass>
+    </link>
+    <point name="point1" type="fixed">
+        <point_xyz>0.143000 0.214000 -0.028000</point_xyz>
+    </point>
+    <joint>
+        <axis xyz="0 0 1" />
+    </joint>
+</urdf_part>
