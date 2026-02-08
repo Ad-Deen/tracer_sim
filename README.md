@@ -27,6 +27,9 @@ Plaintext
 
 ---
 
+![Power Circuit Soldering Demo](IBVS_prototype2.gif)
+
+---
 ## 🛠 Setup & Installation
 
 ### 1. External Mesh Download
