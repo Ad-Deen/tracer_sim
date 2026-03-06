@@ -13,9 +13,8 @@ This project enables a drone (Raspberry Pi 5 + Pixhawk 6C) to autonomously track
 
 ## 📂 Package Structure
 
-Plaintext
-
-`tracer/
+```
+tracer/
 ├── launch/             # Python launch files for Gazebo & RViz
 ├── meshes/             # STL and XML model files for drone & camera
 ├── urdf/               # Robot description files (tracer.urdf)
@@ -24,7 +23,7 @@ Plaintext
 ├── rviz/               # Pre-configured RViz2 layout
 ├── package.xml         # Dependencies and metadata
 └── setup.py            # Package installation and data_file mapping`
-
+```
 ---
 
 ![Power Circuit Soldering Demo](IBVS_prototype2.gif)
